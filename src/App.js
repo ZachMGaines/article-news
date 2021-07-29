@@ -1,5 +1,5 @@
 import React from 'react';
-import AllArticles from '../src/container/AllArticles';
+import AllArticles from './container/AllArticles';
 import {
   BrowserRouter as Router,
   Route,

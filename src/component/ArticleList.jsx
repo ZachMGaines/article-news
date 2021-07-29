@@ -3,8 +3,9 @@ import PropTypes from 'prop-types';
 import Article from './Article';
 
 const ArticleList = ({ articles }) => {
+  console.log(articles);
   const articleElement = articles.map((article) => (
-    <li key={article.id}>
+    <li key={article.title}>
       <Article
         title={article.title}
         author={article.author}
