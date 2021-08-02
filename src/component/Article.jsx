@@ -8,6 +8,7 @@ const Article = ({ author, title, description, url, urlToImage }) => (
       <p>{title}</p>
       <p>{author}</p>
       <p>{description}</p>
+      <p>{urlToImage}</p>
       <p>{url}</p>
     </figcaption>
   </figure >
